@@ -12,6 +12,7 @@
 		3EAC24D51BE2C378007834DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAC24D31BE2C378007834DA /* Main.storyboard */; };
 		3EAC24D71BE2C378007834DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EAC24D61BE2C378007834DA /* Assets.xcassets */; };
 		3EAC24DA1BE2C378007834DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAC24D81BE2C378007834DA /* LaunchScreen.storyboard */; };
+		3EAC24E31BE2C3B2007834DA /* FMHierarchicalSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAC24E21BE2C3B2007834DA /* FMHierarchicalSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3EAC24D61BE2C378007834DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EAC24D91BE2C378007834DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EAC24DB1BE2C378007834DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EAC24E21BE2C3B2007834DA /* FMHierarchicalSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMHierarchicalSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		3EAC24CE1BE2C378007834DA /* FMHierarchicalSelector */ = {
 			isa = PBXGroup;
 			children = (
+				3EAC24E11BE2C39B007834DA /* FMHierarchicalSelector */,
 				3EAC24CF1BE2C378007834DA /* AppDelegate.swift */,
 				3EAC24D11BE2C378007834DA /* ViewController.swift */,
 				3EAC24D31BE2C378007834DA /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				3EAC24DB1BE2C378007834DA /* Info.plist */,
 			);
 			path = FMHierarchicalSelector;
+			sourceTree = "<group>";
+		};
+		3EAC24E11BE2C39B007834DA /* FMHierarchicalSelector */ = {
+			isa = PBXGroup;
+			children = (
+				3EAC24E21BE2C3B2007834DA /* FMHierarchicalSelector.swift */,
+			);
+			name = FMHierarchicalSelector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EAC24E31BE2C3B2007834DA /* FMHierarchicalSelector.swift in Sources */,
 				3EAC24D21BE2C378007834DA /* ViewController.swift in Sources */,
 				3EAC24D01BE2C378007834DA /* AppDelegate.swift in Sources */,
 			);
