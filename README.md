@@ -73,5 +73,8 @@ func itemSelected(hierarchicalSelector: FMHierarchicalSelector, item: FMHierarch
 }
 
 ```
+## In Conclusion
 
+Although the visual design of `FMHierarchicalSelector` is very much geared to the next version of Nodality, its designed to work with any kind of data and is, therefore, a pretty versatile component to enable users to navigate through large datasets. 
 
+`FMHierarchicalSelector` is available at my GitHub repository here.
